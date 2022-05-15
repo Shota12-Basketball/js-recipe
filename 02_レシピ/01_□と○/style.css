@@ -1,13 +1,9 @@
-.transition {
-  transition: all 1s;
-}
-
 .square {
-  width: 150px;
-  height: 150px;
-  background: black;
+  width: 100px;
+  height: 100px;
+  background-color: black;
 }
 
 .rounded {
-  border-radius: 50%;
+  border-radius: 50px;
 }

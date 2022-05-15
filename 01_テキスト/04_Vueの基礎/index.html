@@ -8,8 +8,12 @@
   <body>
     <h1>Vueの基礎</h1>
     <!-- ↓ここに追加する -->
+    <div id="app">
+      <div>{{ count }}</div>
+      <button v-on:click="countUp">＋１</button> // ここをかえる
+    </div>
 
-    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/vue@3.2.20"></script>
     <script src="main.js"></script>
   </body>
 </html>
